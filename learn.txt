@@ -1,0 +1,26 @@
+react + react-dom
+{core functionalities useState} + import ReactDOM from 'react-dom/client'; this import takes care of creating/deleting/modifying  DOM related stuff.
+
+** Cmp lifecycle.
+   - Cmp Mount (Memory create) (mounting phase)
+   - Re-rendering (New memory allocated)
+   - Cmp Unmount (Memory deleted)
+
+
+React Cmp
+ -- functional
+ -- class
+
+
+hooks. (useState, useEffect, useRef, useReducer, useContext)
+
+
+Concepts
+--------
+Props + Props Drilling.
+Context API.
+React Portals.
+
+
+
+** Redux.
