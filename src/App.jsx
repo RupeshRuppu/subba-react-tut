@@ -5,6 +5,8 @@ function Child() {
 	const [count, setCount] = useState(0);
 	console.log('rendering - child');
 
+	/* to run side effects  */
+	/* side effects are async functions */
 	useEffect(function () {
 		console.log('mount-child (memory created)');
 
