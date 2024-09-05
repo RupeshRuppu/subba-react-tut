@@ -16,7 +16,6 @@ function Subba() {
 		try {
 			setLoading(true);
 			const resp = await fetch(url);
-			throw new Error('welcome idiot');
 			if (resp.ok) {
 				const json = await resp.json();
 				setUserData(json);
@@ -35,7 +34,7 @@ function Subba() {
 			) : error ? (
 				<p>ERROR:{error}</p>
 			) : (
-				<p>{JSON.stringify(userData)}</p>
+				<pre style={{ fontSize: 16 }}>{JSON.stringify(userData, null, 4)}</pre>
 			)}
 		</div>
 	);
